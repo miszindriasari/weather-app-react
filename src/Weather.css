@@ -1,0 +1,82 @@
+.App {
+  margin: 30px auto;
+  width: 100%;
+  background-image: url(/public/images/mist.jpg);
+  background-size: cover;
+}
+
+.Weather {
+  padding: 20px;
+  border: 2px solid #ff3366;
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+  backdrop-filter: opacity(20px);
+}
+
+.overview {
+  margin-bottom: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.information {
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid #18b3a8;
+  border-radius: 10px;
+}
+
+.weather-temperature img {
+  margin-left: 5px;
+  width: 120px;
+  height: 120px;
+  line-height: 1;
+  top: -15px;
+  position: relative;
+}
+
+.weather-temperature strong {
+  color: #0d62a8;
+  margin-right: 10px;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+  font-size: 16px;
+}
+
+.active {
+  color: #18b3a8;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #18b3a8;
+  border: 3px solid #0d62a8;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
