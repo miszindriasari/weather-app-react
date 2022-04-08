@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Weather from "./Weather";
 
 import "./App.css";
+import Footer from "./Footer";
 
 function App() {
   return (

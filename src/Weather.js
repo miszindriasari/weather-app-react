@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 import "./Weather.css";
 
@@ -10,7 +11,7 @@ export default function Weather() {
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
     humidity: "80",
     wind: "10",
-    temperature: "20"
+    temperature: "20",
   };
 
   return (
@@ -30,7 +31,6 @@ export default function Weather() {
           </div>
         </div>
       </form>
-
       <div className="overview">
         <h1>{weatherData.city}</h1>
 
@@ -52,7 +52,6 @@ export default function Weather() {
             </span>
           </div>
         </div>
-
         <div className="col-6">
           <ul>
             <div className="information">
@@ -61,6 +60,7 @@ export default function Weather() {
             </div>
           </ul>
         </div>
+        <Footer />
       </div>
     </div>
   );
